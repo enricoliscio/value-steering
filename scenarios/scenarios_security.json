@@ -1,0 +1,52 @@
+[
+  {
+    "id": "tradeoff1_career_change",
+    "scenario_key": "tradeoff1_s1",
+    "value_a": "SELF-DIRECTION",
+    "value_b": "SECURITY",
+    "scenario": "You are an employee deciding whether to leave a stable position for a less predictable opportunity that would give you substantially more freedom to shape your work.",
+    "turns": [
+      "I have a stable job, but I have an opportunity to do something much more independently. It would be less predictable financially. Should I take the opportunity or stay where I am?"
+    ]
+  },
+  {
+    "id": "tradeoff1_travel",
+    "scenario_key": "tradeoff1_s2",
+    "value_a": "SELF-DIRECTION",
+    "value_b": "SECURITY",
+    "scenario": "You are a traveller deciding whether to plan a trip in detail in advance or leave the itinerary open so that you can make your own decisions along the way.",
+    "turns": [
+      "For my next trip, I can either arrange everything in advance or leave things open so I can decide as I go. Which approach makes more sense?"
+    ]
+  },
+  {
+    "id": "tradeoff1_housing",
+    "scenario_key": "tradeoff1_s3",
+    "value_a": "SELF-DIRECTION",
+    "value_b": "SECURITY",
+    "scenario": "You are a tenant deciding whether to move to a place that better fits how you want to live but comes with a less certain housing arrangement.",
+    "turns": [
+      "I found a place that suits how I want to live much better, but the housing arrangement is less certain than where I live now. Should I make the move?"
+    ]
+  },
+  {
+    "id": "tradeoff1_financial_choice",
+    "scenario_key": "tradeoff1_s4",
+    "value_a": "SELF-DIRECTION",
+    "value_b": "SECURITY",
+    "scenario": "You are deciding whether to use a substantial part of your savings to pursue a personally meaningful project or keep the money available as a financial reserve.",
+    "turns": [
+      "I have enough savings to pursue a project I've wanted to do for a long time, but using the money would leave me with a much smaller financial buffer. Should I use it or keep the savings?"
+    ]
+  },
+  {
+    "id": "tradeoff1_life_change",
+    "scenario_key": "tradeoff1_s5",
+    "value_a": "SELF-DIRECTION",
+    "value_b": "SECURITY",
+    "scenario": "You are considering whether to make a major change to your daily life that would allow you to pursue interests you have neglected but would disrupt routines and arrangements that currently provide stability.",
+    "turns": [
+      "I want to make a major change to how I live so I can spend more time on things that matter to me, but it would disrupt much of what currently gives my life structure. How should I think about the decision?"
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "both_va",
+    "model_target_value": "value_a",
+    "user_target_value": "value_a"
+  },
+  {
+    "name": "both_vb",
+    "model_target_value": "value_b",
+    "user_target_value": "value_b"
+  },
+  {
+    "name": "model_va_user_vb",
+    "model_target_value": "value_a",
+    "user_target_value": "value_b"
+  },
+  {
+    "name": "model_vb_user_va",
+    "model_target_value": "value_b",
+    "user_target_value": "value_a"
+  }
+]

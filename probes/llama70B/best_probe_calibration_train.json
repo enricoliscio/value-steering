@@ -1,0 +1,115 @@
+{
+  "checkpoint_path": "probes/llama70B/best_probe.pt",
+  "model_name": "unknown",
+  "layer_name": "model.layers.76",
+  "pooling": 1,
+  "split": "train",
+  "split_source": "checkpoint_manifest",
+  "split_seed": 42,
+  "val_ratio": 0.1,
+  "test_ratio": 0.1,
+  "std_floor": 1e-06,
+  "device": "cuda",
+  "dataset_roots": {
+    "valuenet": "activations/llama70b/valuenet",
+    "valueeval": "activations/llama70b/valueeval",
+    "fulcra": "activations/llama70b/fulcra"
+  },
+  "dataset_selected_counts": {
+    "valuenet": 17100,
+    "valueeval": 7396,
+    "fulcra": 29427
+  },
+  "num_examples_used": 53923,
+  "schwartz_values": [
+    "SELF-DIRECTION",
+    "STIMULATION",
+    "HEDONISM",
+    "ACHIEVEMENT",
+    "POWER",
+    "SECURITY",
+    "TRADITION",
+    "CONFORMITY",
+    "BENEVOLENCE",
+    "UNIVERSALISM"
+  ],
+  "per_value": {
+    "SELF-DIRECTION": {
+      "mu": 1.3101677894592285,
+      "sigma": 2.4655375480651855,
+      "sigma_raw": 2.4655375480651855,
+      "sigma_floored": false
+    },
+    "STIMULATION": {
+      "mu": 0.5487015247344971,
+      "sigma": 2.042454242706299,
+      "sigma_raw": 2.042454242706299,
+      "sigma_floored": false
+    },
+    "HEDONISM": {
+      "mu": 0.08451461046934128,
+      "sigma": 2.0692572593688965,
+      "sigma_raw": 2.0692572593688965,
+      "sigma_floored": false
+    },
+    "ACHIEVEMENT": {
+      "mu": 1.4136815071105957,
+      "sigma": 3.3994979858398438,
+      "sigma_raw": 3.3994979858398438,
+      "sigma_floored": false
+    },
+    "POWER": {
+      "mu": 0.6862344741821289,
+      "sigma": 1.5684248208999634,
+      "sigma_raw": 1.5684248208999634,
+      "sigma_floored": false
+    },
+    "SECURITY": {
+      "mu": 0.0590510368347168,
+      "sigma": 2.4170472621917725,
+      "sigma_raw": 2.4170472621917725,
+      "sigma_floored": false
+    },
+    "TRADITION": {
+      "mu": -0.7647420763969421,
+      "sigma": 2.2160558700561523,
+      "sigma_raw": 2.2160558700561523,
+      "sigma_floored": false
+    },
+    "CONFORMITY": {
+      "mu": -1.0649391412734985,
+      "sigma": 2.915302038192749,
+      "sigma_raw": 2.915302038192749,
+      "sigma_floored": false
+    },
+    "BENEVOLENCE": {
+      "mu": 0.12686558067798615,
+      "sigma": 2.5056772232055664,
+      "sigma_raw": 2.5056772232055664,
+      "sigma_floored": false
+    },
+    "UNIVERSALISM": {
+      "mu": 0.2839752733707428,
+      "sigma": 2.190619468688965,
+      "sigma_raw": 2.190619468688965,
+      "sigma_floored": false
+    }
+  },
+  "per_dataset": {
+    "fulcra": {
+      "num_examples": 29427,
+      "logit_mean_global": 1.5726441144943237,
+      "logit_std_global": 2.140117883682251
+    },
+    "valueeval": {
+      "num_examples": 7396,
+      "logit_mean_global": -0.5602880716323853,
+      "logit_std_global": 1.8939182758331299
+    },
+    "valuenet": {
+      "num_examples": 17100,
+      "logit_mean_global": -1.6177785396575928,
+      "logit_std_global": 2.028580665588379
+    }
+  }
+}

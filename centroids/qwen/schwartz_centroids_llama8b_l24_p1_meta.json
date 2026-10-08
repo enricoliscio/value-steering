@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-08-22T00:59:12.922993",
+  "model_name": "llama8b",
+  "layer_name": "model.layers.24",
+  "pooling": 1,
+  "split": "train",
+  "checkpoint": "/mnt/probes/qwen/best_probe.pt",
+  "datasets": [
+    "valuenet",
+    "valueeval",
+    "fulcra"
+  ],
+  "labeled_only": false,
+  "normalized": false,
+  "n_seen": 53923,
+  "n_used": 38556,
+  "n_skipped_load": 0,
+  "weight_total": {
+    "SELF-DIRECTION": 13405.5,
+    "STIMULATION": 1748.0,
+    "HEDONISM": 1561.5,
+    "ACHIEVEMENT": 11314.5,
+    "POWER": 3720.0,
+    "SECURITY": 10920.0,
+    "TRADITION": 1662.5,
+    "CONFORMITY": 7683.5,
+    "BENEVOLENCE": 10065.5,
+    "UNIVERSALISM": 9080.0
+  },
+  "values_with_data": [
+    "SELF-DIRECTION",
+    "STIMULATION",
+    "HEDONISM",
+    "ACHIEVEMENT",
+    "POWER",
+    "SECURITY",
+    "TRADITION",
+    "CONFORMITY",
+    "BENEVOLENCE",
+    "UNIVERSALISM"
+  ],
+  "output_npz": "/mnt/centroids/qwen/schwartz_centroids_llama8b_l24_p1.npz"
+}
